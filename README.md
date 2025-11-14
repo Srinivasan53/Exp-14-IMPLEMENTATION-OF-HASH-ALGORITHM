@@ -1,6 +1,6 @@
 ## Exp 14 : IMPLEMENTATION OF HASH ALGORITHM
-
-
+NAME : NIDISHKUMAR S
+REG NO : 212224040218
 ## AIM:
 
 To implement a simple hash algorithm in C to generate a hash value for a given message, demonstrating how hashing can be used for data integrity.
@@ -18,8 +18,39 @@ b.	Add the ASCII value of the current character to the hash.
 
 
 ## PROGRAM:
+```
+#include <stdio.h> 
+#include <string.h>
+// Simple hash function for demonstration 
+unsigned int simple_hash(const char *message)
+{
+unsigned int hash = 0; int 
+i;
+for (i = 0; i < strlen(message); i++)
+{
+hash = (hash * 31) + message[i]; // Using a prime number for multiplication
+}
+return hash;
+}
+int main()
+{
+
+char message[256]; 
+unsigned int hash_value;
+// Input message from user 
+printf("Enter the message to hash: "); 
+fgets(message, sizeof(message), stdin);
+message[strcspn(message, "\n")] = '\0'; // Remove newline character
+// Generate hash
+hash_value = simple_hash(message); 
+printf("Generated hash value: %u\n", hash_value);
+return 0;
+}
+```
 
 ## OUTPUT:
+![WhatsApp Image 2025-11-13 at 11 30 33_75779619](https://github.com/user-attachments/assets/5f8e92b5-57ae-404a-9960-3bea5fd78c44)
+
 
 ## RESULT:
 
