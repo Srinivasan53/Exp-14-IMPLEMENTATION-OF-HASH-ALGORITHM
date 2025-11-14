@@ -1,6 +1,6 @@
 ## Exp 14 : IMPLEMENTATION OF HASH ALGORITHM
-NAME : NIDISHKUMAR S
-REG NO : 212224040218
+NAME : SRINIVASAN S
+REG NO : 212224220105
 ## AIM:
 
 To implement a simple hash algorithm in C to generate a hash value for a given message, demonstrating how hashing can be used for data integrity.
@@ -49,7 +49,8 @@ return 0;
 ```
 
 ## OUTPUT:
-![WhatsApp Image 2025-11-13 at 11 30 33_75779619](https://github.com/user-attachments/assets/5f8e92b5-57ae-404a-9960-3bea5fd78c44)
+
+<img width="528" height="237" alt="image" src="https://github.com/user-attachments/assets/84723a56-5b49-441e-ada2-9cb20f8628fa" />
 
 
 ## RESULT:
